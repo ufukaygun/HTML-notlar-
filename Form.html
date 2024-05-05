@@ -1,0 +1,43 @@
+<!--Form elemanları kullanıcıdan bilgileri alıp servera taşır-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>Ad <input type="text" placeholder="adınızı giriniz" required></p>
+        <p>Soyad <input type="text" placeholder="Soyadınızı giriniz" required></p>
+        <p>Email<input type="email" required></p>
+        <p>Beni Hatırla <input type="checkbox"></p>
+        <p>
+            Erkek <input type="radio" name="Cinsiyet" >
+            Kadın <input type="radio" name="Cinsiyet" >
+        </p>
+        <p>
+            Hobiler <br>
+            Sinema <input type="checkbox">
+            Spor <input type="checkbox">
+            Kitap Okumak <input type="checkbox">
+        </p>
+
+        <p>
+            <select name="sehir" >
+                <option>Kocaeli</option>
+                <option>İstanbul</option>
+                <option>Trabzon</option>
+                <option>Ankara</option>
+                <option>İzmir</option>
+            </select>
+        </p>
+        <input type="range" min="0" max="20">
+        <input type="date">
+        <p>
+            <input type="submit" value="Giriş Yap">
+            <input type="button" value="btnGirisYap">
+        </p>
+    </form>
+</body>
+</html>
